@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BBEBF3B2B06F5050071EA0E /* SwimPALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBF3A2B06F5050071EA0E /* SwimPALApp.swift */; };
+		9BBEBF3D2B06F5050071EA0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBF3C2B06F5050071EA0E /* ContentView.swift */; };
+		9BBEBF3F2B06F5060071EA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBEBF3E2B06F5060071EA0E /* Assets.xcassets */; };
+		9BBEBF422B06F5060071EA0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBEBF412B06F5060071EA0E /* Preview Assets.xcassets */; };
+		9BBEBF4C2B06F5060071EA0E /* SwimPALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBF4B2B06F5060071EA0E /* SwimPALTests.swift */; };
+		9BBEBF562B06F5060071EA0E /* SwimPALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBF552B06F5060071EA0E /* SwimPALUITests.swift */; };
+		9BBEBF582B06F5060071EA0E /* SwimPALUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBF572B06F5060071EA0E /* SwimPALUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BBEBF482B06F5060071EA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BBEBF2F2B06F5050071EA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBEBF362B06F5050071EA0E;
+			remoteInfo = SwimPAL;
+		};
+		9BBEBF522B06F5060071EA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BBEBF2F2B06F5050071EA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBEBF362B06F5050071EA0E;
+			remoteInfo = SwimPAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BBEBF372B06F5050071EA0E /* SwimPAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimPAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBEBF3A2B06F5050071EA0E /* SwimPALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPALApp.swift; sourceTree = "<group>"; };
+		9BBEBF3C2B06F5050071EA0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BBEBF3E2B06F5060071EA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BBEBF412B06F5060071EA0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BBEBF472B06F5060071EA0E /* SwimPALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimPALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBEBF4B2B06F5060071EA0E /* SwimPALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPALTests.swift; sourceTree = "<group>"; };
+		9BBEBF512B06F5060071EA0E /* SwimPALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimPALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBEBF552B06F5060071EA0E /* SwimPALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPALUITests.swift; sourceTree = "<group>"; };
+		9BBEBF572B06F5060071EA0E /* SwimPALUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPALUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BBEBF342B06F5050071EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF442B06F5060071EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF4E2B06F5060071EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BBEBF2E2B06F5050071EA0E = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF392B06F5050071EA0E /* SwimPAL */,
+				9BBEBF4A2B06F5060071EA0E /* SwimPALTests */,
+				9BBEBF542B06F5060071EA0E /* SwimPALUITests */,
+				9BBEBF382B06F5050071EA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BBEBF382B06F5050071EA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF372B06F5050071EA0E /* SwimPAL.app */,
+				9BBEBF472B06F5060071EA0E /* SwimPALTests.xctest */,
+				9BBEBF512B06F5060071EA0E /* SwimPALUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BBEBF392B06F5050071EA0E /* SwimPAL */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF3A2B06F5050071EA0E /* SwimPALApp.swift */,
+				9BBEBF3C2B06F5050071EA0E /* ContentView.swift */,
+				9BBEBF3E2B06F5060071EA0E /* Assets.xcassets */,
+				9BBEBF402B06F5060071EA0E /* Preview Content */,
+			);
+			path = SwimPAL;
+			sourceTree = "<group>";
+		};
+		9BBEBF402B06F5060071EA0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF412B06F5060071EA0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BBEBF4A2B06F5060071EA0E /* SwimPALTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF4B2B06F5060071EA0E /* SwimPALTests.swift */,
+			);
+			path = SwimPALTests;
+			sourceTree = "<group>";
+		};
+		9BBEBF542B06F5060071EA0E /* SwimPALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEBF552B06F5060071EA0E /* SwimPALUITests.swift */,
+				9BBEBF572B06F5060071EA0E /* SwimPALUITestsLaunchTests.swift */,
+			);
+			path = SwimPALUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BBEBF362B06F5050071EA0E /* SwimPAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBEBF5B2B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPAL" */;
+			buildPhases = (
+				9BBEBF332B06F5050071EA0E /* Sources */,
+				9BBEBF342B06F5050071EA0E /* Frameworks */,
+				9BBEBF352B06F5050071EA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimPAL;
+			productName = SwimPAL;
+			productReference = 9BBEBF372B06F5050071EA0E /* SwimPAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BBEBF462B06F5060071EA0E /* SwimPALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBEBF5E2B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPALTests" */;
+			buildPhases = (
+				9BBEBF432B06F5060071EA0E /* Sources */,
+				9BBEBF442B06F5060071EA0E /* Frameworks */,
+				9BBEBF452B06F5060071EA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BBEBF492B06F5060071EA0E /* PBXTargetDependency */,
+			);
+			name = SwimPALTests;
+			productName = SwimPALTests;
+			productReference = 9BBEBF472B06F5060071EA0E /* SwimPALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BBEBF502B06F5060071EA0E /* SwimPALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBEBF612B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPALUITests" */;
+			buildPhases = (
+				9BBEBF4D2B06F5060071EA0E /* Sources */,
+				9BBEBF4E2B06F5060071EA0E /* Frameworks */,
+				9BBEBF4F2B06F5060071EA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BBEBF532B06F5060071EA0E /* PBXTargetDependency */,
+			);
+			name = SwimPALUITests;
+			productName = SwimPALUITests;
+			productReference = 9BBEBF512B06F5060071EA0E /* SwimPALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BBEBF2F2B06F5050071EA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9BBEBF362B06F5050071EA0E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9BBEBF462B06F5060071EA0E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9BBEBF362B06F5050071EA0E;
+					};
+					9BBEBF502B06F5060071EA0E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9BBEBF362B06F5050071EA0E;
+					};
+				};
+			};
+			buildConfigurationList = 9BBEBF322B06F5050071EA0E /* Build configuration list for PBXProject "SwimPAL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BBEBF2E2B06F5050071EA0E;
+			productRefGroup = 9BBEBF382B06F5050071EA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BBEBF362B06F5050071EA0E /* SwimPAL */,
+				9BBEBF462B06F5060071EA0E /* SwimPALTests */,
+				9BBEBF502B06F5060071EA0E /* SwimPALUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BBEBF352B06F5050071EA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBEBF422B06F5060071EA0E /* Preview Assets.xcassets in Resources */,
+				9BBEBF3F2B06F5060071EA0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF452B06F5060071EA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF4F2B06F5060071EA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BBEBF332B06F5050071EA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBEBF3D2B06F5050071EA0E /* ContentView.swift in Sources */,
+				9BBEBF3B2B06F5050071EA0E /* SwimPALApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF432B06F5060071EA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBEBF4C2B06F5060071EA0E /* SwimPALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBEBF4D2B06F5060071EA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBEBF582B06F5060071EA0E /* SwimPALUITestsLaunchTests.swift in Sources */,
+				9BBEBF562B06F5060071EA0E /* SwimPALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BBEBF492B06F5060071EA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBEBF362B06F5050071EA0E /* SwimPAL */;
+			targetProxy = 9BBEBF482B06F5060071EA0E /* PBXContainerItemProxy */;
+		};
+		9BBEBF532B06F5060071EA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBEBF362B06F5050071EA0E /* SwimPAL */;
+			targetProxy = 9BBEBF522B06F5060071EA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BBEBF592B06F5060071EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BBEBF5A2B06F5060071EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BBEBF5C2B06F5060071EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwimPAL/Preview Content\"";
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BBEBF5D2B06F5060071EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwimPAL/Preview Content\"";
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BBEBF5F2B06F5060071EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimPAL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwimPAL";
+			};
+			name = Debug;
+		};
+		9BBEBF602B06F5060071EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimPAL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwimPAL";
+			};
+			name = Release;
+		};
+		9BBEBF622B06F5060071EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimPAL;
+			};
+			name = Debug;
+		};
+		9BBEBF632B06F5060071EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6TST6GC5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CFI.SwimPALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimPAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BBEBF322B06F5050071EA0E /* Build configuration list for PBXProject "SwimPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBEBF592B06F5060071EA0E /* Debug */,
+				9BBEBF5A2B06F5060071EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBEBF5B2B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBEBF5C2B06F5060071EA0E /* Debug */,
+				9BBEBF5D2B06F5060071EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBEBF5E2B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBEBF5F2B06F5060071EA0E /* Debug */,
+				9BBEBF602B06F5060071EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBEBF612B06F5060071EA0E /* Build configuration list for PBXNativeTarget "SwimPALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBEBF622B06F5060071EA0E /* Debug */,
+				9BBEBF632B06F5060071EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BBEBF2F2B06F5050071EA0E /* Project object */;
+}
